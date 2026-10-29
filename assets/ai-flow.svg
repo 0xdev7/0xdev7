@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="232" viewBox="0 0 1200 232" fill="none">
+<style>
+.sans{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif} .mono{font-family:'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes flow{to{stroke-dashoffset:-20}} .flow{stroke-dasharray:6 4;animation:flow .8s linear infinite}
+@keyframes act{0%,22%{stroke-opacity:1;fill-opacity:.14}30%,100%{stroke-opacity:.3;fill-opacity:.04}}
+.box{stroke-opacity:.3;fill-opacity:.04;animation:act 6.0s infinite}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}} .u{opacity:0;animation:up .6s ease-out forwards}
+@keyframes dot{0%{offset-distance:0%;opacity:0}5%{opacity:1}95%{opacity:1}100%{offset-distance:100%;opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#f472b6"/>
+</linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0H0V32" stroke="#ffffff" stroke-opacity=".045"/>
+</pattern>
+
+</defs>
+<rect width="1200" height="232" rx="18" fill="#0b0f1a"/><rect width="1200" height="232" rx="18" fill="url(#grid)"/><rect x=".5" y=".5" width="1199" height="231" rx="18" stroke="#1f2937"/><g class="u" style="animation-delay:0.00s">
+<rect class="box" x="32.0" y="34" width="196" height="104" rx="14" fill="#22d3ee" stroke="#22d3ee" stroke-width="1.5" style="animation-delay:0.00s"/>
+<text x="50.0" y="62" class="mono" font-size="12" font-weight="700" fill="#22d3ee">01</text>
+<text x="50.0" y="88" class="sans" font-size="20" font-weight="800" fill="#e5e7eb">Spec</text>
+<text x="50.0" y="110" class="sans" font-size="12.5" fill="#94a3b8">written spec +</text>
+<text x="50.0" y="127" class="sans" font-size="12.5" fill="#94a3b8">data model</text>
+</g><line class="flow" x1="232.0" y1="86.0" x2="257.0" y2="86.0" stroke="#22d3ee" stroke-width="2"/><path d="M255.0 81.0 L263.0 86.0 L255.0 91.0" stroke="#22d3ee" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><g class="u" style="animation-delay:0.15s">
+<rect class="box" x="267.0" y="34" width="196" height="104" rx="14" fill="#8b5cf6" stroke="#8b5cf6" stroke-width="1.5" style="animation-delay:1.20s"/>
+<text x="285.0" y="62" class="mono" font-size="12" font-weight="700" fill="#8b5cf6">02</text>
+<text x="285.0" y="88" class="sans" font-size="20" font-weight="800" fill="#e5e7eb">Plan</text>
+<text x="285.0" y="110" class="sans" font-size="12.5" fill="#94a3b8">step-by-step plan,</text>
+<text x="285.0" y="127" class="sans" font-size="12.5" fill="#94a3b8">resumable sessions</text>
+</g><line class="flow" x1="467.0" y1="86.0" x2="492.0" y2="86.0" stroke="#8b5cf6" stroke-width="2"/><path d="M490.0 81.0 L498.0 86.0 L490.0 91.0" stroke="#8b5cf6" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><g class="u" style="animation-delay:0.30s">
+<rect class="box" x="502.0" y="34" width="196" height="104" rx="14" fill="#f472b6" stroke="#f472b6" stroke-width="1.5" style="animation-delay:2.40s"/>
+<text x="520.0" y="62" class="mono" font-size="12" font-weight="700" fill="#f472b6">03</text>
+<text x="520.0" y="88" class="sans" font-size="20" font-weight="800" fill="#e5e7eb">Implement</text>
+<text x="520.0" y="110" class="sans" font-size="12.5" fill="#94a3b8">Claude Code subagents</text>
+<text x="520.0" y="127" class="sans" font-size="12.5" fill="#94a3b8">in parallel worktrees</text>
+</g><line class="flow" x1="702.0" y1="86.0" x2="727.0" y2="86.0" stroke="#f472b6" stroke-width="2"/><path d="M725.0 81.0 L733.0 86.0 L725.0 91.0" stroke="#f472b6" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><g class="u" style="animation-delay:0.45s">
+<rect class="box" x="737.0" y="34" width="196" height="104" rx="14" fill="#fbbf24" stroke="#fbbf24" stroke-width="1.5" style="animation-delay:3.60s"/>
+<text x="755.0" y="62" class="mono" font-size="12" font-weight="700" fill="#fbbf24">04</text>
+<text x="755.0" y="88" class="sans" font-size="20" font-weight="800" fill="#e5e7eb">Review</text>
+<text x="755.0" y="110" class="sans" font-size="12.5" fill="#94a3b8">human review</text>
+<text x="755.0" y="127" class="sans" font-size="12.5" fill="#94a3b8">+ tests on every change</text>
+</g><line class="flow" x1="937.0" y1="86.0" x2="962.0" y2="86.0" stroke="#fbbf24" stroke-width="2"/><path d="M960.0 81.0 L968.0 86.0 L960.0 91.0" stroke="#fbbf24" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><g class="u" style="animation-delay:0.60s">
+<rect class="box" x="972.0" y="34" width="196" height="104" rx="14" fill="#34d399" stroke="#34d399" stroke-width="1.5" style="animation-delay:4.80s"/>
+<text x="990.0" y="62" class="mono" font-size="12" font-weight="700" fill="#34d399">05</text>
+<text x="990.0" y="88" class="sans" font-size="20" font-weight="800" fill="#e5e7eb">Ship</text>
+<text x="990.0" y="110" class="sans" font-size="12.5" fill="#94a3b8">staged rollout</text>
+<text x="990.0" y="127" class="sans" font-size="12.5" fill="#94a3b8">UAT → prod</text>
+</g><g class="u" style="animation-delay:0.90s">
+<rect x="32.0" y="172" width="259.1" height="34" rx="17" fill="#22d3ee" fill-opacity=".08" stroke="#22d3ee" stroke-opacity=".45"/>
+<text x="50.0" y="194" class="sans" font-size="14"><tspan font-weight="800" fill="#22d3ee">2,000+</tspan><tspan fill="#e5e7eb" dx="6">AI-assisted commits</tspan></text>
+</g><g class="u" style="animation-delay:1.02s">
+<rect x="303.1" y="172" width="246.0" height="34" rx="17" fill="#8b5cf6" fill-opacity=".08" stroke="#8b5cf6" stroke-opacity=".45"/>
+<text x="321.1" y="194" class="sans" font-size="14"><tspan font-weight="800" fill="#8b5cf6">150+</tspan><tspan fill="#e5e7eb" dx="6">Claude Code sessions</tspan></text>
+</g><g class="u" style="animation-delay:1.14s">
+<rect x="561.1" y="172" width="117.0" height="34" rx="17" fill="#f472b6" fill-opacity=".08" stroke="#f472b6" stroke-opacity=".45"/>
+<text x="579.1" y="194" class="sans" font-size="14"><tspan font-weight="800" fill="#f472b6">15+</tspan><tspan fill="#e5e7eb" dx="6">repos</tspan></text>
+</g><g class="u" style="animation-delay:1.26s">
+<rect x="690.1" y="172" width="193.4" height="34" rx="17" fill="#34d399" fill-opacity=".08" stroke="#34d399" stroke-opacity=".45"/>
+<text x="708.1" y="194" class="sans" font-size="14"><tspan font-weight="800" fill="#34d399">10</tspan><tspan fill="#e5e7eb" dx="6">custom subagents</tspan></text>
+</g>
+</svg>

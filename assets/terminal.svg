@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="448" viewBox="0 0 1200 448" fill="none">
+<style>
+.sans{font-family:'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif} .mono{font-family:'JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+@keyframes blink{50%{opacity:0}} .caret{animation:blink 1s steps(1) infinite}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#f472b6"/>
+</linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+<path d="M32 0H0V32" stroke="#ffffff" stroke-opacity=".045"/>
+</pattern>
+<clipPath id="l0"><rect x="30" y="60" height="27" width="0">
+<animate attributeName="width" values="0;151.2" dur="0.01s" begin="0.40s" fill="freeze"/>
+<animate attributeName="width" from="151.2" to="205.6" dur="0.30s" begin="0.45s" fill="freeze"/>
+</rect></clipPath><clipPath id="l1"><rect x="30" y="87" height="27" width="0">
+<animate attributeName="width" values="0;0.0" dur="0.01s" begin="0.95s" fill="freeze"/>
+<animate attributeName="width" from="0.0" to="569.2" dur="0.25s" begin="1.00s" fill="freeze"/>
+</rect></clipPath><clipPath id="l2"><rect x="30" y="114" height="27" width="0">
+<animate attributeName="width" values="0;151.2" dur="0.01s" begin="1.55s" fill="freeze"/>
+<animate attributeName="width" from="151.2" to="272.8" dur="0.42s" begin="1.60s" fill="freeze"/>
+</rect></clipPath><clipPath id="l3"><rect x="30" y="141" height="27" width="0">
+<animate attributeName="width" values="0;0.0" dur="0.01s" begin="2.22s" fill="freeze"/>
+<animate attributeName="width" from="0.0" to="619.6" dur="0.25s" begin="2.27s" fill="freeze"/>
+</rect></clipPath><clipPath id="l4"><rect x="30" y="168" height="27" width="0">
+<animate attributeName="width" values="0;151.2" dur="0.01s" begin="2.82s" fill="freeze"/>
+<animate attributeName="width" from="151.2" to="247.6" dur="0.33s" begin="2.87s" fill="freeze"/>
+</rect></clipPath><clipPath id="l5"><rect x="30" y="195" height="27" width="0">
+<animate attributeName="width" values="0;0.0" dur="0.01s" begin="3.40s" fill="freeze"/>
+<animate attributeName="width" from="0.0" to="728.8" dur="0.25s" begin="3.45s" fill="freeze"/>
+</rect></clipPath><clipPath id="l6"><rect x="30" y="222" height="27" width="0">
+<animate attributeName="width" values="0;151.2" dur="0.01s" begin="4.00s" fill="freeze"/>
+<animate attributeName="width" from="151.2" to="264.4" dur="0.39s" begin="4.05s" fill="freeze"/>
+</rect></clipPath><clipPath id="l7"><rect x="30" y="249" height="27" width="0">
+<animate attributeName="width" values="0;0.0" dur="0.01s" begin="4.64s" fill="freeze"/>
+<animate attributeName="width" from="0.0" to="922.0" dur="0.25s" begin="4.69s" fill="freeze"/>
+</rect></clipPath><clipPath id="l8"><rect x="30" y="276" height="27" width="0">
+<animate attributeName="width" values="0;151.2" dur="0.01s" begin="5.24s" fill="freeze"/>
+<animate attributeName="width" from="151.2" to="499.6" dur="1.23s" begin="5.29s" fill="freeze"/>
+</rect></clipPath><clipPath id="l9"><rect x="30" y="303" height="27" width="0">
+<animate attributeName="width" values="0;0.0" dur="0.01s" begin="6.72s" fill="freeze"/>
+<animate attributeName="width" from="0.0" to="602.8" dur="0.25s" begin="6.77s" fill="freeze"/>
+</rect></clipPath><clipPath id="l10"><rect x="30" y="330" height="27" width="0">
+<animate attributeName="width" values="0;151.2" dur="0.01s" begin="7.32s" fill="freeze"/>
+<animate attributeName="width" from="151.2" to="205.6" dur="0.30s" begin="7.37s" fill="freeze"/>
+</rect></clipPath><clipPath id="l11"><rect x="30" y="357" height="27" width="0">
+<animate attributeName="width" values="0;0.0" dur="0.01s" begin="7.87s" fill="freeze"/>
+<animate attributeName="width" from="0.0" to="518.8" dur="0.25s" begin="7.92s" fill="freeze"/>
+</rect></clipPath>
+</defs>
+<rect width="1200" height="448" rx="18" fill="#0b0f1a"/><rect width="1200" height="448" rx="18" fill="url(#grid)"/><rect x=".5" y=".5" width="1199" height="447" rx="18" stroke="#1f2937"/>
+<rect x="1" y="1" width="1198" height="40" rx="17" fill="#111827"/><rect x="1" y="24" width="1198" height="17" fill="#111827"/>
+<line x1="0" y1="41" x2="1200" y2="41" stroke="#1f2937"/>
+<circle cx="26" cy="21" r="6" fill="#fb7185"/><circle cx="46" cy="21" r="6" fill="#fbbf24"/><circle cx="66" cy="21" r="6" fill="#34d399"/>
+<text x="600.0" y="26" class="mono" font-size="13" fill="#94a3b8" text-anchor="middle">devang@github: ~ (zsh)</text>
+<text x="32" y="78" class="mono" font-size="14" clip-path="url(#l0)" xml:space="preserve"><tspan fill='#34d399'>devang</tspan><tspan fill='#94a3b8'>@github</tspan> <tspan fill='#22d3ee'>~</tspan> <tspan fill='#94a3b8'>$</tspan> <tspan fill='#e5e7eb'>whoami</tspan></text><text x="32" y="105" class="mono" font-size="14" clip-path="url(#l1)" xml:space="preserve"><tspan fill='#94a3b8'><tspan fill='#e5e7eb' font-weight='700'>devang-parekh</tspan>  front-end team lead · senior full-stack engineer</tspan></text><text x="32" y="132" class="mono" font-size="14" clip-path="url(#l2)" xml:space="preserve"><tspan fill='#34d399'>devang</tspan><tspan fill='#94a3b8'>@github</tspan> <tspan fill='#22d3ee'>~</tspan> <tspan fill='#94a3b8'>$</tspan> <tspan fill='#e5e7eb'>cat career.txt</tspan></text><text x="32" y="159" class="mono" font-size="14" clip-path="url(#l3)" xml:space="preserve"><tspan fill='#94a3b8'>14 years · banking → wallets → exchanges → Web3 · leading a team of 6</tspan></text><text x="32" y="186" class="mono" font-size="14" clip-path="url(#l4)" xml:space="preserve"><tspan fill='#34d399'>devang</tspan><tspan fill='#94a3b8'>@github</tspan> <tspan fill='#22d3ee'>~</tspan> <tspan fill='#94a3b8'>$</tspan> <tspan fill='#e5e7eb'>ls domains/</tspan></text><text x="32" y="213" class="mono" font-size="14" clip-path="url(#l5)" xml:space="preserve"><tspan fill='#94a3b8'><tspan fill='#22d3ee'>exchanges/  money-transfer/  e-wallets/  digital-banking/  e-kyc/  defi/  trading/</tspan></tspan></text><text x="32" y="240" class="mono" font-size="14" clip-path="url(#l6)" xml:space="preserve"><tspan fill='#34d399'>devang</tspan><tspan fill='#94a3b8'>@github</tspan> <tspan fill='#22d3ee'>~</tspan> <tspan fill='#94a3b8'>$</tspan> <tspan fill='#e5e7eb'>cat stack.txt</tspan></text><text x="32" y="267" class="mono" font-size="14" clip-path="url(#l7)" xml:space="preserve"><tspan fill='#94a3b8'>React · Next.js · TypeScript │ Node.js · tRPC · Postgres │ Docker · GitHub Actions · Azure │ wagmi · viem</tspan></text><text x="32" y="294" class="mono" font-size="14" clip-path="url(#l8)" xml:space="preserve"><tspan fill='#34d399'>devang</tspan><tspan fill='#94a3b8'>@github</tspan> <tspan fill='#22d3ee'>~</tspan> <tspan fill='#94a3b8'>$</tspan> <tspan fill='#e5e7eb'>git log --author=devang --oneline | wc -l</tspan></text><text x="32" y="321" class="mono" font-size="14" clip-path="url(#l9)" xml:space="preserve"><tspan fill='#94a3b8'><tspan fill='#8b5cf6'>2000+</tspan> AI-assisted commits, every one reviewed and tested by a human</tspan></text><text x="32" y="348" class="mono" font-size="14" clip-path="url(#l10)" xml:space="preserve"><tspan fill='#34d399'>devang</tspan><tspan fill='#94a3b8'>@github</tspan> <tspan fill='#22d3ee'>~</tspan> <tspan fill='#94a3b8'>$</tspan> <tspan fill='#e5e7eb'>status</tspan></text><text x="32" y="375" class="mono" font-size="14" clip-path="url(#l11)" xml:space="preserve"><tspan fill='#94a3b8'><tspan fill='#34d399'>●</tspan> open to senior / lead roles · remote · hybrid · on-site</tspan></text>
+<g opacity="0"><animate attributeName="opacity" to="1" dur="0.01s" begin="8.47s" fill="freeze"/><text x="32" y="402" class="mono" font-size="14" xml:space="preserve"><tspan fill="#34d399">devang</tspan><tspan fill="#94a3b8">@github</tspan> <tspan fill="#22d3ee">~</tspan> <tspan fill="#94a3b8">$</tspan> <tspan class="caret" fill="#e5e7eb">▍</tspan></text></g>
+</svg>
